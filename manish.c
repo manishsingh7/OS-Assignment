@@ -9,7 +9,7 @@
   FILE *fp = fopen("cpu_burst.txt", "r");
   int bt[20],p[20],wt[20],tat[20],i=0,j,n=5,total=0,pos,temp;
   float avg_wt,avg_tat;
-  printf("\nReading CPU_BURST.txt File\n");
+  printf("\nReading  CPU_BURST.txt  File\n");
   
    while((getc(fp))!=EOF)
      {
