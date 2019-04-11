@@ -55,8 +55,8 @@ printf("\nProcess\t    Burst Time    \tWaiting Time\tTurnaround Time");
        printf("\np%d\t\t  %d\t\t    %d\t\t\t%d",p[i],bt[i],wt[i],tat[i]);
    }
    avg_tat=(float)total/n;     
-   printf("\n\nAverage Waiting Time=%f",avg_wt);
-   printf("\nAverage Turnaround Time=%f\n",avg_tat);
+   printf("\n\nAverage Waiting  Time=%f",avg_wt);
+   printf("\nAverage  Turnaround  Time=%f\n",avg_tat);
    fclose(fp);
    return 0;
 }
