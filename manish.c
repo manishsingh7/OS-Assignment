@@ -129,7 +129,7 @@ for(i = 0; i < n; i++)
 
 p_list[i].p_no = i+1;
 
-printf("\nEnter Details For P%d process:-\n", p_list[i].p_no);
+printf("\nEnter Detail For P%d process:-\n", p_list[i].p_no);
 printf("Enter Arrival Time: ");
 scanf("%d", &p_list[i].arrival_t );
 printf("Enter Burst Time: ");
